@@ -19,5 +19,5 @@ def trigger_report():
 
 @view.route('/get_report/<report_id>', methods=['GET'])
 def get_report(report_id):
-    # TODO: Get report status and CSV file
+    # TODO: Get report status
     return 'Complete'
