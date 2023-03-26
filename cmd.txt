@@ -1,0 +1,15 @@
+=====================================
+-------Verious commands used---------
+=====================================
+
+python -m pip install virtualenv
+
+# for creating virtual environment
+virtualenv env
+
+# Activate
+Set-ExecutionPolicy Unrestricted -Scope Process
+env\Scripts\activate
+
+# Deactivate
+deactivate
